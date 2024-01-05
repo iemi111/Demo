@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { TreeTable } from "primereact/treetable";
 import { Column, ColumnEditorOptions } from "primereact/column";
 import { InputText } from "primereact/inputtext";
-import { CustomNodeData, CustomTreeNode, FileType, NodeService } from "./api/service";
+import { CustomNodeData, CustomTreeNode, FileType, NodeService } from "./service";
 import _ from "lodash";
 
 export default function EditDemo() {
