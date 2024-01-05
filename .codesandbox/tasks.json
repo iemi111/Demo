@@ -6,7 +6,7 @@
       "command": "npm ci --prefix ./tree-table/nextjs-app-router"
     },
     {
-      "name": "Install app router example dependencies",
+      "name": "Install pages example dependencies",
       "command": "npm ci --prefix ./tree-table/nextjs-pages"
     }
   ],
