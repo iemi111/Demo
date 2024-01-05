@@ -24,7 +24,7 @@
     "pagesversion": {
       "name": "Run pages example",
       "command": "cd ./tree-table/nextjs-pages && npm run dev",
-      "runAtStart": false,
+      "runAtStart": true,
       "preview": {
         "port": 3001
       }
