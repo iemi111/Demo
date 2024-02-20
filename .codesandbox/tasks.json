@@ -11,7 +11,7 @@
   "tasks": {
     "start-app": {
       "name": "Run app",
-      "command": "cd ./tree-table/accessibility-bug && npm run dev -p 3003",
+      "command": "cd ./tree-table/accessibility-bug && npm run dev -- -p 3003",
       "runAtStart": true,
       "preview": {
         "port": 3003
