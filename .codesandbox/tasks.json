@@ -6,7 +6,7 @@
       "command": "npm ci --prefix ./tree-table/nextjs-app-router"
     },
     {
-      "name": "Install app router example dependencies",
+      "name": "Install pages example dependencies",
       "command": "npm ci --prefix ./tree-table/nextjs-pages"
     }
   ],
@@ -24,7 +24,7 @@
     "pagesversion": {
       "name": "Run pages example",
       "command": "cd ./tree-table/nextjs-pages && npm run dev",
-      "runAtStart": false,
+      "runAtStart": true,
       "preview": {
         "port": 3001
       }
