@@ -2,31 +2,19 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "name": "Install app router example dependencies",
-      "command": "npm ci --prefix ./tree-table/nextjs-app-router"
-    },
-    {
-      "name": "Install pages example dependencies",
-      "command": "npm ci --prefix ./tree-table/nextjs-pages"
+      "name": "Install dependencies",
+      "command": "npm ci --prefix ./tree-table/accessibility-bug"
     }
   ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "approuterversion": {
-      "name": "Run app router example",
-      "command": "cd ./tree-table/nextjs-app-router && npm run dev",
+    "start-app": {
+      "name": "Run app",
+      "command": "cd ./tree-table/accessibility-bug && npm run dev",
       "runAtStart": true,
       "preview": {
         "port": 3000
-      }
-    },
-    "pagesversion": {
-      "name": "Run pages example",
-      "command": "cd ./tree-table/nextjs-pages && npm run dev",
-      "runAtStart": true,
-      "preview": {
-        "port": 3001
       }
     }
   }
